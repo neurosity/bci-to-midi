@@ -10,7 +10,7 @@ const { tween } = require("./utils/tween");
   const midi = new Midi("Notion", true);
 
   notion
-    .calm()
+    .predictions("rightFoot")
     .pipe(tween({ to: [0, 254] }))
     .subscribe((value) => {
       midi.send("cc", { value });
