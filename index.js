@@ -1,10 +1,10 @@
 const { Notion } = require("@neurosity/notion");
 const { Output: Midi } = require("easymidi");
+const { email, password } = require("./auth");
 const { tween } = require("./utils/tween");
-const { deviceId, email, password } = require("./options");
 
 (async function main() {
-  const notion = new Notion({ deviceId });
+  const notion = new Notion();
   await notion.login({ email, password });
 
   const midi = new Midi("Notion", true);

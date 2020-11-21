@@ -13,7 +13,7 @@
   "author": "Alex Castillo",
   "license": "MIT",
   "dependencies": {
-    "@neurosity/notion": "^4.4.0",
+    "@neurosity/notion": "^5.1.1",
     "dotenv": "^8.2.0",
     "easymidi": "^1.1.2",
     "linspace": "^1.0.0",
