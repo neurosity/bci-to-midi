@@ -1,0 +1,22 @@
+{
+  "name": "notion-midi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "keywords": [
+    "notion",
+    "midi"
+  ],
+  "author": "Alex Castillo",
+  "license": "MIT",
+  "dependencies": {
+    "@neurosity/notion": "^4.4.0",
+    "dotenv": "^8.2.0",
+    "easymidi": "^1.1.2",
+    "linspace": "^1.0.0",
+    "rxjs": "^6.5.5"
+  }
+}
